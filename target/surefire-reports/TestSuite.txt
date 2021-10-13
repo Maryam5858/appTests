@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 103.516 s <<< FAILURE! - in TestSuite
+appTest.SeleniumDev.beforeTest  Time elapsed: 82.82 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2VN6A15', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00FAD403+2479107]
+	Ordinal0 [0x00F47D51+2063697]
+	Ordinal0 [0x00E520C8+1056968]
+	Ordinal0 [0x00E6F7B2+1177522]
+	Ordinal0 [0x00E6C139+1163577]
+	Ordinal0 [0x00E69B7F+1153919]
+	Ordinal0 [0x00E99CBF+1350847]
+	Ordinal0 [0x00E9992A+1349930]
+	Ordinal0 [0x00E9583B+1333307]
+	Ordinal0 [0x00E71F94+1187732]
+	Ordinal0 [0x00E72DE9+1191401]
+	GetHandleVerifier [0x0112F3F6+1531734]
+	GetHandleVerifier [0x011DE9AE+2249998]
+	GetHandleVerifier [0x010339AB+501003]
+	GetHandleVerifier [0x01032A29+497033]
+	Ordinal0 [0x00F4D11D+2085149]
+	Ordinal0 [0x00F511C8+2101704]
+	Ordinal0 [0x00F51302+2102018]
+	Ordinal0 [0x00F5AA71+2140785]
+	BaseThreadInitThunk [0x760CFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77BE7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77BE7A6E+238]
+
+	at appTest.SeleniumDev.beforeTest(SeleniumDev.java:22)
+
